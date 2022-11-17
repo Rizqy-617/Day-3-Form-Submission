@@ -6,15 +6,15 @@ function submitData(){
     let message = document.getElementById("message").value ;
 
     if (name == ''){
-        return 
+        return alert('nama harus di isi')
     }else if (email == ''){
-        return 
+        return alert('email harus di isi')
     }else if (phone == ''){
-        return 
+        return alert('nomor harus di isi')
     }else if (subject == ''){
-        return 
+        return alert('subject harus di isi')
     }else if (message == ''){
-        return 
+        return alert('message harus di isi')
     } ;
 
     let emailReciver = "rizqyandriansyah617@gmail.com" ;
